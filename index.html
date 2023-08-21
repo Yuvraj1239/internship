@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="
+    style.css">
+    <title></title>
+    
+</head>
+<body>
+
+
+<div class="container" id="container1">
+    <form>
+        <div class="field" tabindex="1">
+            <label>
+                <i class="far fa-user"></i>First Name
+            </label>
+            <input name="first_name" type="text" placeholder="e.g. yuvra" required>
+        </div>
+        <div class="field" tabindex="2">
+            <label>
+                <i class="far fa-user"></i>Last name
+            </label>
+            <input name="last_name" type="text" placeholder="e.g. chopra" required>
+        </div>
+        <div class="field" tabindex="3">
+            <label>
+                <i class="far fa-user"></i>Father name
+            </label>
+            <input type="text" name="father_name" placeholder="e.g. chandrashekhar chopra" required>
+        </div>
+        <div class="field" tabindex="4">
+        	<label>
+        		<i class="far fa-user"></i>
+        		email
+        	</label>
+        	<input type="text" name="email">
+        </div>
+        <div class="field" tabindex="5">
+        	<label>
+        		<i class="far fa-user"></i>mobile number
+        	</label>
+        	<input type="text" name="mobile">
+        </div>
+        <div class="field" tabindex="6">
+        	<label>
+        		<i class="far fa-user"></i>gender
+        	</label>
+        	<input type="text" name="gender">
+
+        	
+        </div>
+        <div class="field" tabindex="7">
+        	<label>
+        		<i class="far fa-user"></i>photo
+        	</label>
+        	<input type="file" name="photo">
+        </div>
+        <div class="field" tabindex="8">
+        	<label>
+        		<i class="far fa-user"></i>dob
+        	</label>
+        	<input type="date" name="dob">
+        </div>
+        <div class="field" tabindex="9">
+        	<label>
+        		<i class="far fa-user"></i>hobbies
+        	</label>
+        	<input type="text" name="hobbies">
+        </div>
+        <div class="field" tabindex="10">
+        	<label>
+        		<i class="far fa-user"></i>address
+        	</label>
+        	<input type="text" name="address">
+        </div>
+        <div class="field" tabindex="11">
+        	<label>
+        		<i class="far fa-user"></i>city
+        	</label>
+        	<input type="text" name="city">
+        </div>
+
+        <button onclick="submitForm()">Submit</button>
+    </form>
+</div>
+
+<!-- This is not part of Pen -->
+<a class="me" href="https://codepen.io/uzcho_/pens/popular/?grid_type=list" target="_blank" style="color:#000"></a>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+
+
+<script src="http://localhost:8000/socket.io/socket.io.js"></script>
+<script src="client.js"></script>
+</body>
+</html>
